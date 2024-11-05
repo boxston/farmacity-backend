@@ -143,3 +143,9 @@ T:\Farmacity\farmacity-backend\Farmacity-Backend\obj\Debug\net8.0\Farmacity-Back
 T:\Farmacity\farmacity-backend\Farmacity-Backend\obj\Debug\net8.0\ref\Farmacity-Backend.dll
 T:\Farmacity\farmacity-backend\Farmacity-Backend\bin\Debug\net8.0\AutoMapper.dll
 T:\Farmacity\farmacity-backend\Farmacity-Backend\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+T:\Farmacity\farmacity-backend\Farmacity-Backend\bin\Debug\net8.0\System.Web.Cors.dll
+T:\Farmacity\farmacity-backend\Farmacity-Backend\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+T:\Farmacity\farmacity-backend\Farmacity-Backend\bin\Debug\net8.0\System.Web.Http.dll
+T:\Farmacity\farmacity-backend\Farmacity-Backend\bin\Debug\net8.0\System.Web.Http.Cors.dll
+T:\Farmacity\farmacity-backend\Farmacity-Backend\bin\Debug\net8.0\Newtonsoft.Json.dll
+T:\Farmacity\farmacity-backend\Farmacity-Backend\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

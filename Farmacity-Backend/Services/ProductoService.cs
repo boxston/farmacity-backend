@@ -25,13 +25,9 @@ namespace Farmacity_Backend.Services
             return await _productoRepository.GetAllAsync();
         }
 
-        public async Task<bool> AddAsync(Producto producto)
+        public async Task<Producto> AddAsync(Producto producto)
         {
-            try
-            {
-                await _productoRepository.AddAsync(producto);
-                return true;
-            } catch { return false; }
+                return await _productoRepository.AddAsync(producto);
         }
 
         public async Task<bool> UpdateAsync(int id, ProductoUpdateDTO productoUpdate)
@@ -61,7 +57,8 @@ namespace Farmacity_Backend.Services
                     {
                         Codigo = c.Codigo,
                         Activo = c.Activo,
-                        FechaAlta = DateTime.UtcNow,
+                        FechaAlta = c.FechaAlta ?? DateTime.UtcNow,
+                        FechaModificacion = c.FechaAlta.HasValue ? DateTime.UtcNow : (DateTime?)null,
                         ProductoId = id
                     }).ToList();
 

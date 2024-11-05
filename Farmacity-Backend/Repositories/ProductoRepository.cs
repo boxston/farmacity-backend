@@ -29,10 +29,12 @@ namespace Farmacity_Backend.Repositories
             else { return res; }
         }
 
-        public async Task AddAsync(Producto producto)
+        public async Task<Producto> AddAsync(Producto producto)
         {
             await _context.Productos.AddAsync(producto);
             await _context.SaveChangesAsync();
+
+            return producto;
         }
 
         public async Task UpdateAsync(Producto producto)

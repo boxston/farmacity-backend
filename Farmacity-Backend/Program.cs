@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Farmacity_Backend.Interfaces;
 using Farmacity_Backend.Repositories;
 using Farmacity_Backend.Services;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,24 @@ builder.Services.AddScoped<ICodigoBarraRepository, CodigoBarraRepository>();
 builder.Services.AddScoped<ProductoService>();
 builder.Services.AddScoped<CodigoBarraService>();
 
+builder.Services.AddCors(options => {
+    options.AddPolicy("AllowSpecificOrigins",
+        policy =>
+            {
+                policy.WithOrigins("http://localhost:4200")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+            }
+
+        );
+});
+
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+    });
 
 var app = builder.Build();
 
@@ -30,6 +49,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowSpecificOrigins");
 
 app.UseHttpsRedirection();
 

@@ -39,8 +39,7 @@ namespace Farmacity_Backend.Controllers
 
             var res = await _productoService.AddAsync(producto);
 
-            if (res) return Ok();
-            return StatusCode(500, "Error al crear producto.");
+            return Ok(res);
         }
 
         [HttpPut("{id}")]

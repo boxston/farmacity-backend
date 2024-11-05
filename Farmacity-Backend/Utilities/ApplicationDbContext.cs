@@ -14,6 +14,7 @@ namespace Farmacity_Backend.Utilities
             modelBuilder.Entity<Producto>().Property(e => e.Precio).HasPrecision(18, 2);
             modelBuilder.Entity<Producto>().Property(e => e.Nombre).HasMaxLength(50);
             modelBuilder.Entity<Producto>().Property(e => e.FechaAlta).HasDefaultValueSql("GETDATE()");
+            modelBuilder.Entity<CodigoBarra>().Property(e => e.FechaAlta).HasDefaultValueSql("GETDATE()");
             modelBuilder.Entity<CodigoBarra>().Property(e => e.Codigo).HasMaxLength(13).IsRequired(true);
 
             modelBuilder.Entity<Producto>().HasKey(p => p.Id);
