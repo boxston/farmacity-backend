@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Migrations\\20241105003607_Propiedades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241105003607_Propiedades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|t:\\farmacity\\farmacity-backend\\farmacity-backend\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|t:\\farmacity\\farmacity-backend\\farmacity-backend\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|solutionrelative:applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|t:\\farmacity\\farmacity-backend\\farmacity-backend\\entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|solutionrelative:entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Migrations\\20241105011416_defaultDateCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241105011416_defaultDateCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,36 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241105003607_Propiedades.cs",
-              "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Migrations\\20241105003607_Propiedades.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241105003607_Propiedades.cs",
-              "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Migrations\\20241105003607_Propiedades.cs",
-              "RelativeToolTip": "Migrations\\20241105003607_Propiedades.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T00:36:07.275Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Entity\\Producto.cs",
-              "RelativeDocumentMoniker": "Entity\\Producto.cs",
-              "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Entity\\Producto.cs",
-              "RelativeToolTip": "Entity\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Title": "20241105011416_defaultDateCreate.cs",
+              "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Migrations\\20241105011416_defaultDateCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241105011416_defaultDateCreate.cs",
+              "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Migrations\\20241105011416_defaultDateCreate.cs",
+              "RelativeToolTip": "Migrations\\20241105011416_defaultDateCreate.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T00:34:25.951Z",
+              "WhenOpened": "2024-11-05T01:14:16.905Z",
               "EditorCaption": ""
             },
             {
@@ -62,9 +45,26 @@
               "RelativeDocumentMoniker": "ApplicationDbContext.cs",
               "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\ApplicationDbContext.cs",
               "RelativeToolTip": "ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T00:30:14.371Z",
+              "WhenOpened": "2024-11-05T01:11:32.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
+              "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T01:08:29.775Z",
               "EditorCaption": ""
             }
           ]

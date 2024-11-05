@@ -141,3 +141,5 @@ T:\Farmacity\farmacity-backend\Farmacity-Backend\obj\Debug\net8.0\refint\Farmaci
 T:\Farmacity\farmacity-backend\Farmacity-Backend\obj\Debug\net8.0\Farmacity-Backend.pdb
 T:\Farmacity\farmacity-backend\Farmacity-Backend\obj\Debug\net8.0\Farmacity-Backend.genruntimeconfig.cache
 T:\Farmacity\farmacity-backend\Farmacity-Backend\obj\Debug\net8.0\ref\Farmacity-Backend.dll
+T:\Farmacity\farmacity-backend\Farmacity-Backend\bin\Debug\net8.0\AutoMapper.dll
+T:\Farmacity\farmacity-backend\Farmacity-Backend\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
