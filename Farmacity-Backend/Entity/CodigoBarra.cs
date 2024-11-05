@@ -5,12 +5,12 @@ namespace Farmacity_Backend.Entity
 {
     public class CodigoBarra
     {
-        [Key, ForeignKey("Producto")]
+        [ForeignKey("Producto")]
         public int ProductoId { get; set; }
+        [Key]
         public string Codigo { get; set; } = null!;
         public bool Activo { get; set; }
-        public DateTime FechaAlta { get; set; }
-        public DateTime? FechaModificacion { get; set; }
+        public DateTime FechaAlta { get; set; } = DateTime.UtcNow;
         public Producto Producto { get; set; } = null!;
     }
 }

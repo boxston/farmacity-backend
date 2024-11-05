@@ -11,6 +11,6 @@ namespace Farmacity_Backend.Entity
         public bool Activo { get; set; }
         public DateTime FechaAlta { get; set; }
         public DateTime? FechaModificacion { get; set; }
-        public CodigoBarra ? CodigoBarra {  get; set; }
+        public List<CodigoBarra> CodigoBarras { get; set; } = new List<CodigoBarra>();
     }
 }

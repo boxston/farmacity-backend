@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|t:\\farmacity\\farmacity-backend\\farmacity-backend\\entity\\codigobarra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|solutionrelative:entity\\codigobarra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|t:\\farmacity\\farmacity-backend\\farmacity-backend\\dtos\\codigobarradto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|solutionrelative:dtos\\codigobarradto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|t:\\farmacity\\farmacity-backend\\farmacity-backend\\interfaces\\icodigobarrarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|solutionrelative:interfaces\\icodigobarrarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|t:\\farmacity\\farmacity-backend\\farmacity-backend\\repositories\\codigobarrarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|solutionrelative:repositories\\codigobarrarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|t:\\farmacity\\farmacity-backend\\farmacity-backend\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|solutionrelative:repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|t:\\farmacity\\farmacity-backend\\farmacity-backend\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|t:\\farmacity\\farmacity-backend\\farmacity-backend\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|solutionrelative:applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Migrations\\20241105011416_defaultDateCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241105011416_defaultDateCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|t:\\farmacity\\farmacity-backend\\farmacity-backend\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65B39F4-F7DA-4FE5-8450-437143DDE9B2}|Farmacity-Backend.csproj|solutionrelative:services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +38,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20241105011416_defaultDateCreate.cs",
-              "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Migrations\\20241105011416_defaultDateCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241105011416_defaultDateCreate.cs",
-              "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Migrations\\20241105011416_defaultDateCreate.cs",
-              "RelativeToolTip": "Migrations\\20241105011416_defaultDateCreate.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CodigoBarra.cs",
+              "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Entity\\CodigoBarra.cs",
+              "RelativeDocumentMoniker": "Entity\\CodigoBarra.cs",
+              "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Entity\\CodigoBarra.cs",
+              "RelativeToolTip": "Entity\\CodigoBarra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:14:16.905Z",
+              "WhenOpened": "2024-11-05T05:34:19.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ApplicationDbContext.cs",
-              "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABkAAAAAAAAAA==",
+              "Title": "CodigoBarraDTO.cs",
+              "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\DTOs\\CodigoBarraDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CodigoBarraDTO.cs",
+              "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\DTOs\\CodigoBarraDTO.cs",
+              "RelativeToolTip": "DTOs\\CodigoBarraDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:11:32.328Z",
+              "WhenOpened": "2024-11-05T05:34:03.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICodigoBarraRepository.cs",
+              "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Interfaces\\ICodigoBarraRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICodigoBarraRepository.cs",
+              "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Interfaces\\ICodigoBarraRepository.cs",
+              "RelativeToolTip": "Interfaces\\ICodigoBarraRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T04:26:29.328Z",
               "EditorCaption": ""
             },
             {
@@ -56,15 +85,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "CodigoBarraRepository.cs",
+              "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Repositories\\CodigoBarraRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CodigoBarraRepository.cs",
+              "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Repositories\\CodigoBarraRepository.cs",
+              "RelativeToolTip": "Repositories\\CodigoBarraRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T04:27:03.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Repositories\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductoRepository.cs",
+              "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Repositories\\ProductoRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T04:23:20.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ProductosController.cs",
               "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
               "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Controllers\\ProductosController.cs",
               "RelativeToolTip": "Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:08:29.775Z",
+              "WhenOpened": "2024-11-05T03:53:01.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Services\\ProductoService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductoService.cs",
+              "ToolTip": "T:\\Farmacity\\farmacity-backend\\Farmacity-Backend\\Services\\ProductoService.cs",
+              "RelativeToolTip": "Services\\ProductoService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T04:24:46.07Z",
               "EditorCaption": ""
             }
           ]
