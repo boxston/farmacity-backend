@@ -1,6 +1,6 @@
 # Farmacity Backend API
 
-Este proyecto es una API web desarrollada en **.NET 8** utilizando **Entity Framework Core** y **SQL Server** para gestionar información de productos y códigos de barra, permitiendo realizar operaciones CRUD, validaciones y documentación.
+Este proyecto es una API web desarrollada en **.NET 8** utilizando **Entity Framework Core** y **SQL Server** para gestionar información de productos y códigos de barra, permitiendo realizar operaciones CRUD.
 
 ## Requisitos
 
